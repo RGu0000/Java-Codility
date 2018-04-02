@@ -18,11 +18,15 @@ public class Main {
 //		System.out.println( ex2.solution(7) == 149 );
 //		System.out.println( ex2.solution(2000));
 
-		Exercise3 ex3 = new Exercise3();
-		System.out.println( ex3.solution( "13+62*7+*") == 76 );
-		System.out.println( ex3.solution( "11++") == -1 );
+//		Exercise3 ex3 = new Exercise3();
+//		System.out.println( ex3.solution( "13+62*7+*") == 76 );
+//		System.out.println( ex3.solution( "11++") == -1 );
+//		System.out.println( ex3.solution( "133+62*7+0*") == 0 );
 
-		System.out.println( ex3.solution( "133+62*7+0*") == 0 );
+//		Lesson1 l1 = new Lesson1();
+//		System.out.println( l1.solution( 42 ));
+		Lesson2 l2 = new Lesson2();
+		System.out.println( l2.arraySolution(new int[]{1,2,3}, 2)[0]);
 
 		long endTime = System.nanoTime();
 
