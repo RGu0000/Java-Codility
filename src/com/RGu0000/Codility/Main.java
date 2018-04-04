@@ -1,4 +1,5 @@
 package com.RGu0000.Codility;
+//Tests to be moved to proper test module.
 
 public class Main {
 	public static void main(String[] args) {
@@ -25,11 +26,9 @@ public class Main {
 
 //		Lesson1 l1 = new Lesson1();
 //		System.out.println( l1.solution( 42 ));
-		Lesson2 l2 = new Lesson2();
-		System.out.println( l2.arraySolution(new int[]{1,2,3}, 2)[0]);
-
+//		Lesson2 l2 = new Lesson2();
+//		System.out.println( l2.arraySolution(new int[]{1,2,3}, 2)[0]);
 		long endTime = System.nanoTime();
-
 		System.out.println( ( endTime - startTime)/Math.pow(10,9) );
 	}
 }

@@ -1,5 +1,8 @@
+// Write a method, that will return the number of lattice points (points with integer coordinates X and Y) for a disc centered at (0,0)
+// and with radius N. If number of points exceeds 10^9, return -1 instead.
+
 package com.RGu0000.Codility;
-//
+
 
 import static java.lang.Math.pow;
 import static java.lang.Math.sqrt;
